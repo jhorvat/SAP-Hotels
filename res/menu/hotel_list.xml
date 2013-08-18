@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_ct_reservations"
+        android:showAsAction="never"
+        android:title="My Reservations"/>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/action_search"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:title="Search"/>
+    <item
+        android:id="@+id/action_sync"
+        android:icon="@drawable/navigation_refresh"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"
+        android:title="Sync"/>
+
+</menu>
